@@ -1,0 +1,46 @@
+body {
+	margin: 0px;
+	overflow: hidden;
+	font-family: monospace;
+}
+
+.ui {
+  position: absolute;
+}
+
+#info {
+  width: 100%;
+  text-align: center;
+  color: white;
+	font-size: 1.2em;
+	margin-top: 6px;
+}
+
+.sattable-container {
+	position: absolute;
+	margin-right: 8px;
+	top: 24px;
+	right: 0px;
+	color: white;
+	padding: 6px 12px;
+	background-color: rgba(0,0,0,0.4);
+}
+
+.sattable-container h2 {
+	margin: 0px;
+	font-size: 1.1em;
+	margin-bottom: 6px;
+}
+
+.sattable {
+    cursor: pointer;
+    border-collapse: collapse;
+}
+.sattable td {
+    color: white;
+    font-size: small;
+    padding: 4px 12px;
+}
+.sattable tr:hover {
+    background-color: #666;
+}
