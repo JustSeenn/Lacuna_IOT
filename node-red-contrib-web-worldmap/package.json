@@ -1,0 +1,66 @@
+{
+  "_from": "node-red-contrib-web-worldmap@2.3.2",
+  "_id": "node-red-contrib-web-worldmap@2.3.2",
+  "_inBundle": false,
+  "_integrity": "sha512-u00EYMm07EXznfq/d5rtoNIxNN2LJ9yH4+Ro8K7MNEhJh3hfk4FAAVP2AqEUvxH1Sj4ci8wrrLegyknOGA6aNQ==",
+  "_location": "/node-red-contrib-web-worldmap",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "node-red-contrib-web-worldmap@2.3.2",
+    "name": "node-red-contrib-web-worldmap",
+    "escapedName": "node-red-contrib-web-worldmap",
+    "rawSpec": "2.3.2",
+    "saveSpec": null,
+    "fetchSpec": "2.3.2"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/node-red-contrib-web-worldmap/-/node-red-contrib-web-worldmap-2.3.2.tgz",
+  "_shasum": "61c831ef61936ca31800c1804d7dc8da348967e3",
+  "_spec": "node-red-contrib-web-worldmap@2.3.2",
+  "_where": "C:\\Users\\vboil\\.node-red",
+  "author": {
+    "name": "Dave Conway-Jones",
+    "email": "ceejay@vnet.ibm.com",
+    "url": "http://nodered.org"
+  },
+  "bugs": {
+    "url": "https://github.com/dceejay/RedMap/issues"
+  },
+  "bundleDependencies": false,
+  "contributors": [
+    {
+      "name": "@HiroyasuNishiyama"
+    }
+  ],
+  "dependencies": {
+    "cgi": "0.3.1",
+    "compression": "^1.7.4",
+    "express": "^4.16.4",
+    "sockjs": "^0.3.19"
+  },
+  "deprecated": false,
+  "description": "A Node-RED node to provide a web page of a world map for plotting things on.",
+  "homepage": "https://github.com/dceejay/RedMap#readme",
+  "keywords": [
+    "node-red",
+    "map",
+    "world"
+  ],
+  "license": "Apache-2.0",
+  "name": "node-red-contrib-web-worldmap",
+  "node-red": {
+    "nodes": {
+      "worldmap": "worldmap.js"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dceejay/RedMap.git"
+  },
+  "version": "2.3.2"
+}
