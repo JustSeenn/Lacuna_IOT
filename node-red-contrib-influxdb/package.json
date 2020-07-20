@@ -34,7 +34,7 @@
   "bundleDependencies": false,
   "dependencies": {
     "influx": "5.1.1",
-    "lodash": "4.17.15"
+    "lodash": "4.17.19"
   },
   "deprecated": false,
   "description": "Node-RED nodes to save and query data from an influxdb time series database",
